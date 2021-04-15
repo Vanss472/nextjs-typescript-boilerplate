@@ -14,8 +14,9 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "sourceMap": true,
-    "noImplicitAny": false
+    "noImplicitAny": true,
+    "noUnusedLocals": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "./@types/*"],
   "exclude": ["node_modules"]
 }
